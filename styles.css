@@ -38,3 +38,24 @@ footer
 	width: 40%;
 	padding: 15px;
 }
+a:link 
+{
+	color: red;
+}
+a:visited
+{
+	color: purple;
+}
+@media screen and (max-width: 270px) {
+	body
+	{
+		min-width: 0px;
+		font-size: 80%;
+	}
+	#title
+	{
+		font-size: 18px;
+	}
+
+}
+
