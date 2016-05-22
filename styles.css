@@ -1,3 +1,40 @@
-.class {
-	border: 1px solid black;
+body{
+	background-color: #009999;
+	max-width: 1000px;
+	min-width: 200px;
+	position: relative;
+}
+h1
+{
+	font-family: "phosphate";
+	color: white;
+}
+#title
+{
+	position: absolute;
+	z-index: 1;
+	left: 5%;
+}
+img
+{
+	width: 100%;
+	margin: 5px;
+	z-index: -1;
+}
+
+.border
+{
+	border-left: 2px solid #ff3300;
+	padding-left: 20px;
+}
+table, td, th 
+{ 
+	border: 1px solid #ff3300;
+}
+footer
+{
+	position: relative;
+	margin:auto;
+	width: 40%;
+	padding: 15px;
 }
